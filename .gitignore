@@ -5,3 +5,4 @@ condor/
 *.log
 *~
 *.pyc
+*.pdf
