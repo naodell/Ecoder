@@ -5,7 +5,7 @@ import tensorflow.keras as kr
 import qkeras as qkr
 
 
-def autoCNN(N_filters=[16,8,4],conv_filter=(3,3),pool_filter=(2,2),shape=(12,4,1),weights_f=''):
+def autoCNN(N_filters=[16, 8, 4], conv_filter=(3, 3), pool_filter=(2, 2), shape=(12, 4, 1), weights_f=''):
 
   input_img = Input(shape)  # adapt this if using `channels_first` image data format
 
